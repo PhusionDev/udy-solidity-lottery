@@ -89,7 +89,6 @@ describe("Lottery Contract", () => {
     const players = await lottery.methods
       .getPlayers()
       .call({ from: accounts[0] });
-    //console.log(players);
     assert(players.length == 0);
   });
 });
