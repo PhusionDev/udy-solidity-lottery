@@ -3,7 +3,6 @@ const Web3 = require("web3");
 const { interface, bytecode } = require("./compile");
 
 const SEED_PHRASE = process.env.ETH_DEV_SEED_PHRASE;
-const INFURA_ID = process.env.INFURA_ID;
 const ENDPOINT =
   "https://ropsten.infura.io/v3/62e143ca4e444cc4a72f8f3d4de6e6ba";
 
